@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ru">
+  
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Кабинет собственника — УК Фидента</title>
+      <meta name="description" content="Черновой концепт кабинета собственника для УК Фидента: показатели по объекту, заполняемость, документы, отчеты и обращения." />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./styles.css" />
+    </head>
+  
+  <body>
+    <div class="dashboard-shell">
+      
+    <aside class="dashboard-sidebar reveal visible">
+      <a class="dashboard-brand" href="./index.html">
+        <span class="brand-mark"></span>
+        <span>
+          <strong>УК Фидента</strong>
+          <small>Кабинет собственника</small>
+        </span>
+      </a>
+
+      <nav class="dashboard-nav">
+        <a class="dashboard-link active" href="#overview">Обзор</a>
+        <a class="dashboard-link" href="#occupancy">Заполняемость</a>
+        <a class="dashboard-link" href="#finance">Финансы</a>
+        <a class="dashboard-link" href="#docs">Документы</a>
+        <a class="dashboard-link" href="#requests">Обращения</a>
+      </nav>
+
+      <div class="dashboard-sidecard">
+        <p>Объект</p>
+        <strong>БЦ «Северный корпус»</strong>
+        <span>Санкт-Петербург • Class A</span>
+      </div>
+    </aside>
+  
+      <main class="dashboard-main">
+        
+  <header class="dashboard-topbar reveal visible delay-1">
+    <div>
+      <p class="eyebrow">Личный кабинет</p>
+      <h1>Тихий рабочий слой для собственника.</h1>
+    </div>
+
+    <div class="dashboard-topbar-side">
+      <div class="dashboard-session">
+        <span>Статус контура</span>
+        <strong>Все данные обновлены сегодня, 16 мая 2026</strong>
+      </div>
+
+      <div class="dashboard-actions">
+        <a class="button button-secondary" href="./objects.html">Портфель</a>
+        <a class="button" href="./index.html">На сайт</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="dashboard-hero reveal visible delay-2" id="overview">
+    <div class="dashboard-hero-backdrop">
+      <img src="./assets/fidenta-dashboard-backdrop.jpg" alt="" />
+    </div>
+    <div class="dashboard-hero-overlay"></div>
+
+    <div class="dashboard-hero-content">
+      <div class="dashboard-intro">
+        <p class="eyebrow">Состояние объекта</p>
+        <h2>Показатели, документы и события собраны в одном контуре.</h2>
+        <p>
+          Здесь “вау” должен быть не в декоре, а в спокойной уверенности интерфейса:
+          все под рукой, все читается за секунды, все выглядит как реальный продукт.
+        </p>
+      </div>
+
+      <div class="dashboard-kpis">
+        <article>
+          <span>97%</span>
+          <p>заполняемость</p>
+        </article>
+        <article>
+          <span>12 400 м²</span>
+          <p>арендопригодная площадь</p>
+        </article>
+        <article>
+          <span>₽ 18,6 млн</span>
+          <p>начисления за период</p>
+        </article>
+        <article>
+          <span>6</span>
+          <p>активных документов на согласовании</p>
+        </article>
+      </div>
+
+      <aside class="dashboard-hero-rail">
+        <p class="eyebrow">Live summary</p>
+        <div class="dashboard-rail-list">
+          <article>
+            <strong>Ближайшее событие</strong>
+            <p>Совет по бюджету общих зон назначен на понедельник, 18 мая.</p>
+          </article>
+          <article>
+            <strong>Точка внимания</strong>
+            <p>Свободный блок 380 м² находится в активном показе и на контроле у брокерского пула.</p>
+          </article>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="dashboard-grid">
+    <section class="dashboard-panel reveal" id="occupancy">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Заполняемость</p>
+          <h3>Арендный профиль</h3>
+        </div>
+        <span class="badge">Стабильно</span>
+      </div>
+
+      <div class="tenant-list">
+        <article>
+          <strong>Якорный арендатор</strong>
+          <span>3 200 м² • договор до 2029</span>
+        </article>
+        <article>
+          <strong>Офисный пул</strong>
+          <span>4 850 м² • 8 арендаторов</span>
+        </article>
+        <article>
+          <strong>Свободный блок</strong>
+          <span>380 м² • в брокерском пуле</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="dashboard-panel reveal delay-1" id="finance">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Финансы</p>
+          <h3>Денежный контур</h3>
+        </div>
+        <span class="badge badge-gold">Отчетный месяц</span>
+      </div>
+
+      <div class="finance-lines">
+        <div><span>Поступления</span><strong>₽ 21,4 млн</strong></div>
+        <div><span>Операционные расходы</span><strong>₽ 4,1 млн</strong></div>
+        <div><span>Чистый поток</span><strong>₽ 17,3 млн</strong></div>
+      </div>
+    </section>
+
+    <section class="dashboard-panel dashboard-panel-wide reveal delay-2" id="docs">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Документы и отчеты</p>
+          <h3>Последние материалы по объекту</h3>
+        </div>
+      </div>
+
+      <div class="doc-list">
+        <article>
+          <strong>Ежемесячный отчет по объекту</strong>
+          <span>PDF • обновлен 2 дня назад</span>
+        </article>
+        <article>
+          <strong>Сводка по арендаторам</strong>
+          <span>XLSX • обновлена сегодня</span>
+        </article>
+        <article>
+          <strong>Фотофиксация общих зон</strong>
+          <span>ZIP • обновлена 4 дня назад</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="dashboard-panel dashboard-panel-wide reveal delay-3" id="requests">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Коммуникация</p>
+          <h3>Обращения и события</h3>
+        </div>
+      </div>
+
+      <div class="activity-feed">
+        <article>
+          <strong>Согласование сметы по общим зонам</strong>
+          <p>Ожидает подтверждения собственника</p>
+        </article>
+        <article>
+          <strong>Обновлен отчет по свободным блокам</strong>
+          <p>Добавлены новые показы и статус переговоров</p>
+        </article>
+        <article>
+          <strong>Загружен фотоотчет после осмотра</strong>
+          <p>Доступен в разделе документов</p>
+        </article>
+      </div>
+    </section>
+  </section>
+
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
