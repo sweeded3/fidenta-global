@@ -1,0 +1,23 @@
+FIDENTA GLOBAL — STEP 6 DEPLOY INSTRUCTIONS
+
+1. Open GitHub repository: sweeded3/fidenta-global
+2. Upload/replace the files from this archive into the repository root, not into a nested folder.
+3. Keep GitHub Pages source set to branch main and folder /root.
+4. After upload, open: https://sweeded3.github.io/fidenta-global/
+5. Hard refresh the page if old CSS remains cached.
+
+Included pages:
+- index.html
+- investors.html
+- objects.html
+- object-detail.html
+- account.html
+- privacy.html
+- terms.html
+- consent.html
+- 404.html
+- styles.css
+- app.js
+- .nojekyll
+
+Repository was not changed automatically.

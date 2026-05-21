@@ -1,0 +1,8 @@
+Step 2 check
+- Repo files were not modified.
+- Local static package created.
+- Main landing expanded.
+- Investors page redesigned and expanded.
+- Footer and legal links added across pages.
+- Legal pages included: privacy.html, terms.html, consent.html.
+- Desktop and mobile CSS included.

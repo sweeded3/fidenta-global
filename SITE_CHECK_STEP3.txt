@@ -1,0 +1,23 @@
+Fidenta Global Step 3 check
+
+Scope:
+- Local package only. GitHub repository was not modified.
+- Main focus: account.html / LK.
+
+Files checked:
+- 404.html: title=Страница не найдена — УК Фидента; meta=yes; ids=0
+- account.html: title=Личный кабинет — УК Фидента; meta=yes; ids=6
+- consent.html: title=Согласие на обработку персональных данных — УК Фидента; meta=yes; ids=0
+- index.html: title=УК Фидента — управление коммерческой недвижимостью и инвестиции; meta=yes; ids=6
+- investors.html: title=Инвесторам — УК Фидента; meta=yes; ids=6
+- object-detail.html: title=Карточка объекта — УК Фидента; meta=yes; ids=1
+- objects.html: title=Объекты — УК Фидента; meta=yes; ids=2
+- privacy.html: title=Политика конфиденциальности — УК Фидента; meta=yes; ids=0
+- terms.html: title=Правовая информация — УК Фидента; meta=yes; ids=0
+
+Internal link check:
+No broken internal links found.
+
+Notes:
+- Legal links are connected to privacy.html, terms.html, consent.html.
+- External Unsplash images, mailto and tel links were not treated as local broken links.

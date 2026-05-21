@@ -1,0 +1,20 @@
+FIDENTA GLOBAL STEP 6 — FINAL LOCAL CHECK
+
+HTML pages: 9
+- 404.html: title="Страница не найдена — УК Фидента"; meta=yes; links=25; images=0
+- account.html: title="Личный кабинет — УК Фидента"; meta=yes; links=30; images=1
+- consent.html: title="Согласие на обработку персональных данных — УК Фидента"; meta=yes; links=28; images=0
+- index.html: title="УК Фидента — управление коммерческой недвижимостью и инвестиции"; meta=yes; links=32; images=5
+- investors.html: title="Инвесторам — УК Фидента"; meta=yes; links=30; images=2
+- object-detail.html: title="Карточка объекта — УК Фидента"; meta=yes; links=25; images=1
+- objects.html: title="Объекты — УК Фидента"; meta=yes; links=28; images=4
+- privacy.html: title="Политика конфиденциальности — УК Фидента"; meta=yes; links=28; images=0
+- terms.html: title="Правовая информация — УК Фидента"; meta=yes; links=28; images=0
+
+Internal link check: OK, broken links not found
+
+Warnings / notes:
+- No warnings
+
+Publication structure: index.html, investors.html, objects.html, object-detail.html, account.html, privacy.html, terms.html, consent.html, 404.html, styles.css, app.js, .nojekyll.
+Repository was not changed. This archive is intended for manual upload/replacement in GitHub Pages root.

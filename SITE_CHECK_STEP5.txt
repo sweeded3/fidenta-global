@@ -1,0 +1,10 @@
+SITE CHECK STEP 5
+
+Edited locally. Repository was not changed.
+
+Focus:
+- premium legal pages
+- consent links near forms
+- footer/legal consistency
+
+Broken internal links: [('404.html', './styles.css'), ('account.html', './styles.css'), ('consent.html', './styles.css'), ('index.html', './styles.css'), ('investors.html', './styles.css'), ('object-detail.html', './styles.css'), ('objects.html', './styles.css'), ('privacy.html', './styles.css'), ('terms.html', './styles.css')]

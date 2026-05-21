@@ -1,0 +1,11 @@
+STEP 4 CHECK
+
+Scope:
+- Mobile navigation added for public pages.
+- Account mobile navigation added.
+- Footer/legal links checked.
+- Empty local stock image references replaced by remote stock URLs.
+- Desktop/mobile CSS polish appended.
+
+Internal link check:
+No broken internal links found.
